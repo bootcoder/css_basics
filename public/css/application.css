@@ -1,0 +1,13 @@
+* {
+  outline: 1px solid blue;
+}
+
+
+.stage {
+  background-color: green;
+}
+
+img {
+  max-height: 100px;
+  max-width: 100px;
+}

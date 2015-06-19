@@ -1,3 +1,8 @@
+### CSS Box Model
+http://tutorials.jenkov.com/images/css/box-model.png
+
+### CSS Positioning Walkthrough
+
 ## 1. position:static
 The default positioning for all elements is position:static, which means the element is not positioned and occurs where it normally would in the document.
 

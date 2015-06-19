@@ -15,6 +15,10 @@ img {
   max-width: 100px;
 }
 
+.div-1 {
+  background-color: red;
+}
+
 
 
 /* Example Rules */
@@ -58,5 +62,5 @@ img {
  position:absolute;
  top:0;
  left:0;
-}
-*/
+}*/
+

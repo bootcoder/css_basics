@@ -1,6 +1,8 @@
 ### CSS Box Model
 ![Box Model](http://tutorials.jenkov.com/images/css/box-model.png)
 
+[CSS Cheat Sheet](http://websitesetup.org/wp-content/uploads/2014/09/CSS3_CHEAT_SHEET_PDF.pdf)
+
 ### CSS Positioning Vocab
 - static - Normal document flow. (Default if no positining is defined)
 - elative - Relative to normal document flow.

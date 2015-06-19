@@ -1,5 +1,6 @@
 * {
   outline: 1px solid blue;
+  /*border: 1px solid red;*/
 }
 
 body {
@@ -98,12 +99,12 @@ img {
 
 
 /*EX8*/
-.div-1a {
+/*.div-1a {
  float:left;
 }
 .div-1b {
  float:left;
-}
+}*/
 
 
 
@@ -118,4 +119,7 @@ img {
  clear:both;
  display: block !important;
 }*/
+
+
+
 

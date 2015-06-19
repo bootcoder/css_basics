@@ -4,8 +4,8 @@
 [CSS Cheat Sheet](http://websitesetup.org/wp-content/uploads/2014/09/CSS3_CHEAT_SHEET_PDF.pdf)
 
 ### CSS Positioning Vocab
-- static - Normal document flow. (Default if no positining is defined)
-- elative - Relative to normal document flow.
+- static - Normal document flow. (Default if no positioning is defined)
+- relative - Relative to normal document flow.
 - absolute - The element is taken out of the normal document flow and shown at the location specified by the CSS left and top attribute(or right and bottom).
 - fixed - Fixed position on the screen regardless of scrolling. (Not supported by Internet Explorer)
 

@@ -4,6 +4,8 @@ ruby '2.1.0'
 # PostgreSQL driver
 gem 'pg'
 
+gem 'haml'
+
 # Sinatra driver
 gem 'sinatra'
 gem 'sinatra-contrib'

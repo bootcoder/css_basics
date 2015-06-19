@@ -23,6 +23,12 @@ img {
 
 /* Example Rules */
 
+/*EX1*/
+/*.div-1 {
+ position:static;
+}
+*/
+
 
 /*EX2*/
 /*.div-1 {
@@ -32,22 +38,25 @@ img {
 }
 */
 
+
 /*EX3*/
 /*.div-1a {
  position:absolute;
  top:0;
  right:0;
-}*/
+}
+*/
 
 /*EX4*/
-.div-1 {
+/*.div-1 {
  position:relative;
 }
 .div-1a {
  position:absolute;
  top:0;
  right:0;
-}
+}*/
+
 
 /*EX5*/
 /*.div-1 {
@@ -63,4 +72,38 @@ img {
  top:0;
  left:0;
 }*/
+
+
+/*EX6*/
+/*.div-1 {
+ position:relative;
+ height:250px;
+}
+.div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+}
+.div-1b {
+ position:absolute;
+ top:0;
+ left:0;
+}*/
+
+
+/*EX7*/
+/*.div-1a {
+ float:left;
+}*/
+
+
+/*EX8*/
+.div-1a {
+ float:left;
+ width:150px;
+}
+.div-1b {
+ float:left;
+ width:150px;
+}
 

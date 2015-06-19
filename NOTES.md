@@ -1,7 +1,17 @@
 ### CSS Box Model
-http://tutorials.jenkov.com/images/css/box-model.png
+![Box Model](http://tutorials.jenkov.com/images/css/box-model.png)
 
-### CSS Positioning Walkthrough
+### CSS Positioning Vocab
+- static - Normal document flow. (Default if no positining is defined)
+- elative - Relative to normal document flow.
+- absolute - The element is taken out of the normal document flow and shown at the location specified by the CSS left and top attribute(or right and bottom).
+- fixed - Fixed position on the screen regardless of scrolling. (Not supported by Internet Explorer)
+
+
+## CSS Positioning Walkthrough
+### Pulled from [CSS Positioning in 10 Steps](http://www.barelyfitz.com/screencast/html-training/css/positioning/
+)
+
 
 ## 1. position:static
 The default positioning for all elements is position:static, which means the element is not positioned and occurs where it normally would in the document.
@@ -81,4 +91,51 @@ Now we can make a two-column layout using relative and absolute positioning!
 ```
 One advantage to using absolute positioning is that we can position the elements in any order on the page, regardless of the order they appear in the HTML. So I put div-1b before div-1a.
 
-But wait - what happened to the other elements? They are being obscured by the absolutely positioned elements. What can we do about that?
+Take note: Other elements are being obscured by the absolutely positioned elements.
+
+
+## 6. two column absolute height
+One solution to covered elements is to set a fixed height on the elements.
+
+But that is not a viable solution for most designs, because we usually do not know how much text will be in the elements, or the exact font sizes that will be used.
+```
+.div-1 {
+ position:relative;
+ height:250px;
+}
+.div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+}
+.div-1b {
+ position:absolute;
+ top:0;
+ left:0;
+}
+```
+
+
+## 7. Floats
+For variable height columns, absolute positioning does not work, so let's come up with another solution.
+
+We can "float" an element to push it as far as possible to the right or to the left, and allow text to wrap around it. This is typically used for images, but we will use it for more complex layout tasks (because it's the only tool we have).
+```
+.div-1a {
+ float:left;
+}
+```
+
+
+## 8. float columns
+If we float one column to the left, then also float the second column to the left, they will push up against each other.
+```
+.div-1a {
+ float:left;
+ width:150px;
+}
+.div-1b {
+ float:left;
+ width:150px;
+}
+```

@@ -132,10 +132,23 @@ If we float one column to the left, then also float the second column to the lef
 ```
 .div-1a {
  float:left;
- width:150px;
 }
 .div-1b {
  float:left;
- width:150px;
+}
+```
+
+
+## 9. float columns with clear
+Then after the floating elements we can "clear" the floats to push down the rest of the content.
+```
+.div-1a {
+ float:left;
+}
+.div-1b {
+ float:left;
+}
+.div-1c {
+ clear:both;
 }
 ```

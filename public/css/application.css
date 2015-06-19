@@ -21,7 +21,7 @@ img {
 
 
 
-/* Example Rules */
+/* Example Rules Be sure to toggle each example off when going to the next. */
 
 /*EX1*/
 /*.div-1 {
@@ -100,10 +100,22 @@ img {
 /*EX8*/
 .div-1a {
  float:left;
- width:150px;
 }
 .div-1b {
  float:left;
- width:150px;
 }
+
+
+
+/*EX9*/
+/*.div-1a {
+ float:left;
+}
+.div-1b {
+ float:left;
+}
+.div-1c {
+ clear:both;
+ display: block !important;
+}*/
 
